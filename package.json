@@ -4,7 +4,7 @@
   "description": "Solutions to the coding interview prep section of freecodecamp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/eusoikonomou/fcc-coding-exercises/issues"
   },
-  "homepage": "https://github.com/eusoikonomou/fcc-coding-exercises#readme"
+  "homepage": "https://github.com/eusoikonomou/fcc-coding-exercises#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.1"
+  }
 }
