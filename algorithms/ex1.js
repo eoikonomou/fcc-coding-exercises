@@ -18,10 +18,10 @@ function sym(args) {
         function filterFunction(arr1, arr2) {
             return arr1.filter(el1 => arr2.indexOf(el1) === -1);
         }
-        return filterFunction(arr1, arr2).concat(filterFunction(arr2, arr1));
+        return filterFunction(arr1, arr2).concat(filterFunction(arr2, arr1)).filter((element, index, arr) => arr.indexOf(element) === index);
     }
     return args.reduce(getDiff, []);
 }
 
-console.log(sym([1, 2, 3], [5, 2, 1, 4]));
+console.log(sym([1, 2, 3, 3], [5, 2, 1, 4]));
 console.log(sym([1, 2, 5], [2, 3, 5], [3, 4, 5]));
