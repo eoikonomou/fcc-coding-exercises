@@ -22,6 +22,7 @@ function bubbleSort(array) {
       if (array[i] > array[j]) {
         array[i] = [array[j], array[j] = array[i]][0];
       }
+      console.log(array);
     }
   }
   // change code above this line
