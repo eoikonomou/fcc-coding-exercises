@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const quickSort = require('../../algorithms/ex8');
+const quickSort = require('../../src/algorithms/ex8');
 
 describe('quickSort', function () {
   it('quickSort should sort the array', function () {

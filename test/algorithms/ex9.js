@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const mergeSort = require('../../algorithms/ex9');
+const mergeSort = require('../../src/algorithms/ex9');
 
 describe('mergeSort', function () {
   it('mergeSort should sort the array', function () {

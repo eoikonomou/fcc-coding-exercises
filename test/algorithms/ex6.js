@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const selectionSort = require('../../algorithms/ex6');
+const selectionSort = require('../../src/algorithms/ex6');
 
 describe('selectionSort', function () {
   it('selectionSort should sort the array', function () {

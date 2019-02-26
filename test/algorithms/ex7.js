@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const insertionSort = require('../../algorithms/ex7');
+const insertionSort = require('../../src/algorithms/ex7');
 
 describe('insertionSort', function () {
   it('insertionSort should sort the array', function () {

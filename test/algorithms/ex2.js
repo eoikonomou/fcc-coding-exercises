@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const updateInventory = require('../../algorithms/ex2');
+const updateInventory = require('../../src/algorithms/ex2');
 
 describe('sym()', function () {
     it('inventory after first delivery must contain 6 items', function () {

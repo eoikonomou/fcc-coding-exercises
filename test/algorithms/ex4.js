@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const pairwise = require('../../algorithms/ex4');
+const pairwise = require('../../src/algorithms/ex4');
 
 describe('pairwise', function () {
   it('pairwise([1, 4, 2, 3, 0, 5], 7) should return 11', function () {

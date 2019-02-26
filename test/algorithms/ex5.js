@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const bubbleSort = require('../../algorithms/ex5');
+const bubbleSort = require('../../src/algorithms/ex5');
 
 describe('bubbleSort', function () {
   it('bubbleSort should sort the array', function () {

@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const permAlone = require('../../algorithms/ex3');
+const permAlone = require('../../src/algorithms/ex3');
 
 describe('permAlone', function () {
   it('aab should return a number', function () {

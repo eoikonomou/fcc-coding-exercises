@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const sym = require('../../algorithms/ex1');
+const sym = require('../../src/algorithms/ex1');
 
 describe('sym()', function () {
     it('should compute the symmetric difference of two or more arrays', function () {
