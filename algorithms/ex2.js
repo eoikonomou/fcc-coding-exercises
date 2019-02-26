@@ -23,7 +23,7 @@ function updateInventory(arr1, arr2) {
             subArray[0] += subArray2[0];
         }
     });
-    return arr1.sort((a, b) => a[1] + b[1]);
+    return arr1.sort((a, b) => a[1] < b[1] ? -1 : 1);
 }
 
 // Example inventory lists
